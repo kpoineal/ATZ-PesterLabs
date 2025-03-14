@@ -12,6 +12,7 @@ In this lab, you will learn how to validate Azure resource group IDs using a Pow
 2. **Review the Function Code:**
    - The function uses a regular expression pattern to match the correct format of Azure resource group IDs.
    - If any ID does not match the pattern, the function throws an error.
+   - It's possible that the function may not handle all edge cases or invalid inputs correctly. **You may need to update the function to improve its behavior.**
 
 3. **Understand the Pester Tests:**
    - Open the `Test-WAFResourceGroupId.tests.ps1` file.
@@ -21,6 +22,9 @@ In this lab, you will learn how to validate Azure resource group IDs using a Pow
    - The tests are organized into two contexts: valid and invalid resource group IDs.
    - For valid IDs, the tests check that the function returns `true`.
    - For invalid IDs, the tests check that the function throws an appropriate exception.
+   - The tests use the `Should` and `ShouldThrow` assertions to validate the function's behavior.
+   - The tests also include a test that verifies the function's behavior when no IDs are provided.
+   - The tests should also include a test that verifies the function's behavior when an array of resource group IDs is provided.
 
 5. **Run the Tests:**
    - Use the `Invoke-Pester` command to run the tests and verify that the function behaves as expected.

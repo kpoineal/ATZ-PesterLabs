@@ -1,6 +1,7 @@
 # Description: A simple function that adds two numbers and returns the result.
-# Let's 
+
 function Add-Numbers {
-    param([int]$a, [int]$b)
-    return $a + $b
+    [CmdletBinding()]
+    param([double]$a, [double]$b)
+    return $a + $b + 1
 }

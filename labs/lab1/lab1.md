@@ -34,7 +34,7 @@ Invoke-Pester -Script .\Add-Numbers.tests.ps1
 
 ## Fix the test
 
-Make the necessary adjustments to the PowerShell or the Pester test to make it correct! ✅
+Make the necessary adjustments to the PowerShell function or the Pester test to make it correct! ✅
 
 This command will execute the tests defined in the `Add-Numbers.tests.ps1` file and display the results.
 
