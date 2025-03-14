@@ -41,4 +41,9 @@ Describe "Add-Numbers" {
         # **Hint**: The function should only accept two parameters.
         # TODO: Add a test that verifies that the function throws an error when more than two parameters are provided.
     }
+    
+    It 'Should require two parameters' {
+        # **Hint**: The function should require two parameters.
+        # TODO: Add a test that verifies that the function throws an error when only one parameter is provided.
+    }
 }
