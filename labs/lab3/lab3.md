@@ -25,6 +25,9 @@ In this lab, you will learn how to validate Azure resource group IDs using a Pow
 5. **Run the Tests:**
    - Use the `Invoke-Pester` command to run the tests and verify that the function behaves as expected.
 
+6. 5. **Fix the test** 
+   - Make the necessary adjustments to the PowerShell or the Pester test to make it correct! ✅
+
 ## Value of Pester Tests
 Pester tests are valuable for validating inputs because they:
 - Ensure that your function correctly handles both valid and invalid inputs.

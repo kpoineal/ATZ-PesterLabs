@@ -13,7 +13,8 @@ Welcome to Lab 2! In this lab, you will learn how to test PowerShell functions u
     ```powershell
     Invoke-Pester -Script .\Get-UserInfo.tests.ps1
     ```
-4. **Review the results**: Check the output to see the results of your tests. ✅
+4. **Review the results**: Check the output to see the results of your tests.
+5. **Fix the test**: Make the necessary adjustments to the PowerShell or the Pester test to make it correct! ✅
 
 ## Explanation
 
